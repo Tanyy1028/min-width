@@ -1,0 +1,166 @@
+@media (min-width:320px){
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .nav{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 50%;
+        margin-left:80px;
+    }
+    .navbar{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar li{
+        padding-top: 10px;
+    }
+    .one{
+        margin-left: 14px;
+    }
+    .content{
+        height: auto;
+        width: 90% ;
+    }
+    .gallary p{
+        margin-left: 14px;
+    }
+    .images{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .box1,.box2,.box3{
+        width: 100%;
+        margin: 5px 0px 5px 0px;
+    }
+    .box1 img,.box2 img,.box3 img{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:480px){
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .nav{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 50%;
+        margin-left:120px;
+    }
+    .navbar{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar li{
+        padding-top: 10px;
+    }
+    .one{
+        margin-left: 14px;
+    }
+    .content{
+        height: auto;
+        width: 90% ;
+    }
+    .gallary p{
+        margin-left: 14px;
+    }
+    .images{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .box1,.box2,.box3{
+        width: 100%;
+        margin: 5px 0px 5px 0px;
+    }
+    .box1 img,.box2 img,.box3 img{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:768px){
+    .header{
+        height: 80px;
+        width: 100%; 
+    }
+    .nav{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        height: 70px;
+        width: 20%;
+
+    }
+    .logo img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .navbar{
+        width: 50%;
+        height: 70px;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 0; */
+        justify-content: end;
+        /* margin-left: 0; */
+    }
+    .one{
+        margin-left: 60px;
+    }
+    .content{
+        height: auto;
+        width: 90% ;
+    }
+    .gallary p{
+        margin-left: 60px;
+    }
+    .images{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .box1,.box2,.box3{
+        width: 30%;
+        margin: 5px 0px 5px 0px;
+    }
+    .box1 img,.box2 img,.box3 img{
+        width: 100%;
+    }
+}
